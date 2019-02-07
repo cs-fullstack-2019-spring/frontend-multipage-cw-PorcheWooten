@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+            "home about projects contact"
+            "section section section section"
+            "footer footer footer footer";
+}
+
+#home{
+    grid-area: home;
+    background-color: white;
+    color: black;
+}
+#about{
+    grid-area: about;
+    background-color: white;
+    color: black;
+}
+#projects{
+    grid-area:projects;
+    background-color: white;
+    color: black;
+}
+#contact{
+    grid-area: contact;
+    background-color: white;
+    color: black;
+}
+
+
+section{
+    grid-area: section;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+footer{
+    grid-area: footer;
+    background-color: white;
+    color: black;
+}
