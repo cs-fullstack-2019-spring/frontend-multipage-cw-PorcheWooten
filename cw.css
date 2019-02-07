@@ -1,3 +1,4 @@
+/*create grid*/
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -11,11 +12,12 @@
     grid-area: home;
     background-color: white;
     color: black;
+    margin-left: 200px;
 }
 #about{
     grid-area: about;
     background-color: white;
-    color: black;
+    color: black;padding-left: 35px;
 }
 #projects{
     grid-area:projects;
@@ -26,6 +28,7 @@
     grid-area: contact;
     background-color: white;
     color: black;
+    margin-right: 200px;
 }
 
 
@@ -34,6 +37,8 @@ section{
     background-color: red;
     color: white;
     text-align: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
 }
 
 footer{
